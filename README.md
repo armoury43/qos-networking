@@ -75,6 +75,14 @@ It manages available network resources so that important traffic can receive app
 
 This project connects networking theory with practical traffic-flow scenarios to make QoS easier to understand.
 
+## Author
+
+**armoury43**
+
+Networking • Cybersecurity • Open Source
+
+- GitHub: [armoury43](https://github.com/armoury43)
+- X: [@armoury43](https://x.com/armoury43)
 ---
 
 **Networking • QoS • Traffic Engineering • Cybersecurity**
