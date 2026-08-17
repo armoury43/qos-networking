@@ -1,6 +1,9 @@
 # QoS Networking
 
-> A visual and practical guide to Quality of Service (QoS) in computer networks.
+> A visual and practical guide to Quality of Service (QoS) in computer networks
+> [![Networking](https://img.shields.io/badge/Topic-Networking-8A2BE2)](https://github.com/armoury43/qos-networking)
+[![QoS](https://img.shields.io/badge/Focus-QoS-red)](https://github.com/armoury43/qos-networking)
+[![Documentation](https://img.shields.io/badge/Type-Documentation-blue)](https://github.com/armoury43/qos-networking)
 
 ## Overview
 
