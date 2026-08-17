@@ -4,25 +4,48 @@
 
 ## Overview
 
-Network traffic is not equally sensitive to delay, jitter, packet loss, or bandwidth limitations.
+Network traffic is not equally sensitive to latency, jitter, packet loss, or bandwidth limitations.
 
-Quality of Service (QoS) provides mechanisms for identifying and managing different types of traffic so that latency-sensitive applications can receive appropriate treatment when network resources are under contention.
+Quality of Service (QoS) provides mechanisms for identifying, classifying, prioritizing, and managing traffic when network resources are under contention.
 
-This repository explains QoS through practical examples, network diagrams, and real-world scenarios.
+This repository explains QoS through practical network diagrams, concepts, and real-world scenarios.
 
-## What You'll Learn
+## QoS Overview
+
+![QoS Overview](diagrams/qos-overview.png)
+
+## Traffic Classification
+
+QoS starts by identifying different types of network traffic and determining how each should be treated.
+
+![Traffic Classification](diagrams/traffic-classification.png)
+
+## Queuing & Priority
+
+When network resources become congested, queuing and scheduling mechanisms determine how packets are transmitted.
+
+![Queuing & Priority](diagrams/queuing-priority.png)
+
+## End-to-End QoS
+
+QoS can be applied across multiple stages of a network, from traffic classification to marking, queuing, scheduling, shaping, and policing.
+
+![End-to-End QoS](diagrams/end-to-end-qos.png)
+
+## Core Concepts
 
 - Traffic Classification
 - Traffic Marking
+- DSCP
 - Queuing
 - Scheduling
 - Priority Handling
 - Congestion Management
 - Traffic Shaping
 - Traffic Policing
-- Latency & Jitter
+- Latency
+- Jitter
 - Packet Loss
-- DSCP
 
 ## Real-World Traffic
 
@@ -33,13 +56,22 @@ This repository explains QoS through practical examples, network diagrams, and r
 | Web | Response time |
 | File Transfer | Bandwidth |
 
-## Repository Structure
+## Documentation
 
-```text
-qos-networking/
-├── README.md
-├── docs/
-│   ├── fundamentals.md
-│   ├── traffic-management.md
-│   └── real-world-examples.md
-└── diagrams/
+- [QoS Fundamentals](docs/fundamentals.md)
+- [Traffic Management](docs/traffic-management.md)
+- [Real-World Examples](docs/real-world-examples.md)
+
+## Important
+
+QoS does not create additional bandwidth.
+
+It manages available network resources so that important traffic can receive appropriate treatment during congestion.
+
+## Goal
+
+This project connects networking theory with practical traffic-flow scenarios to make QoS easier to understand.
+
+---
+
+**Networking • QoS • Traffic Engineering • Cybersecurity**
