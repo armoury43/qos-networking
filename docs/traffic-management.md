@@ -1,27 +1,24 @@
 # Traffic Management
 
-QoS manages network traffic by identifying, prioritizing, queuing, and controlling different types of packets.
+QoS traffic management controls how network traffic is classified, marked, queued, scheduled, shaped, and policed.
 
-## Core Concepts
+## 1. Classification
 
-- Traffic Classification
-- Marking
-- Queuing
-- Scheduling
-- Congestion Management
-- Traffic Shaping
-- Traffic Policing
-- Priority Handling
+Classification identifies traffic and assigns it to a traffic class.
 
-## Why It Matters
+Common classification inputs include:
 
-Different applications have different network requirements.
+- Source or destination IP
+- Protocol
+- TCP/UDP port
+- Application identity
+- Existing DSCP markings
+- VLAN or interface information
 
-For example:
+Example:
 
-- Voice requires low latency and low jitter.
-- Video requires consistent bandwidth.
-- Web traffic usually tolerates more delay.
-- Large file transfers can often use available bandwidth without strict priority.
-
-QoS helps the network handle these competing requirements in a controlled way.
+```text
+VoIP        → Voice
+Video       → Video
+Web         → Best Effort
+File        → Bulk
