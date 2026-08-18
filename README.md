@@ -1,3 +1,4 @@
+
 # QoS Networking
 
 > A visual and practical guide to Quality of Service (QoS) in computer networks
@@ -62,9 +63,13 @@ QoS can be applied across multiple stages of a network, from traffic classificat
 ## Documentation
 
 - [QoS Fundamentals](docs/fundamentals.md)
+- [QoS Model](docs/qos-model.md)
 - [Traffic Management](docs/traffic-management.md)
+- [DSCP](docs/dscp.md)
+- [Shaping vs Policing](docs/shaping-vs-policing.md)
 - [Real-World Examples](docs/real-world-examples.md)
 
+- 
 ## Important
 
 QoS does not create additional bandwidth.
@@ -74,6 +79,13 @@ It manages available network resources so that important traffic can receive app
 ## Goal
 
 This project connects networking theory with practical traffic-flow scenarios to make QoS easier to understand.
+
+
+## Examples
+
+- [Congested WAN](examples/congested-wan.md)
+- [VoIP Priority](examples/voip-priority.md)
+- [QoS Decision Flow](examples/qos-decision-flow.md)
 
 ## Author
 
